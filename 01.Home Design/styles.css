@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+/* .card
+.section-img
+.section-content
+.content-title
+.content-separator
+.content-info
+.content-continue */
+body {
+background-color: rgb(238, 238, 238);
+    font-family: Courgette;
+}
+
+.card {
+    margin-top: 2rem;
+    background-color: white;
+    width: 30%;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.section-img img {
+
+
+    width: 100%;
+    height: 100%;
+    ;
+    object-fit: cover;
+}
+
+.section-content {
+
+    transform: translate(-10px, 0);
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 2rem 2rem;
+}
+
+.content-title {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.content-separator {
+    border-top: 3px solid rgb(207, 42, 42);
+    margin-bottom: 1rem;
+}
+
+.section-content .content-continue i {
+    background-color: rgb(207, 42, 42);
+    border: 1px solid black;
+    border-radius: 100px;
+    padding: 0.1rem 0.3rem;
+    color: white;
+    margin-left: 1rem;
+}
+
+.section-content .content-info {
+    margin-bottom: 5rem;
+}
+
+.section-content .content-continue {}

@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+    --clr-green: #1ed191;
+    --clr-bg-green:#b2f1dd;
+}
+
+html {
+    font-family: PT Sans;
+}
+
+/* .computer-main-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.computer-main-img {
+
+    overflow: hidden;
+    width: 80vw;
+    height: 60vh;
+    /* object-fit: cover; */
+/* } */
+
+.content-main {
+    color: white;
+    background-image: linear-gradient(0deg, rgba(195, 194, 192, 0.18) 7%, rgba(0, 0, 0, 0.6) 61%, rgba(0, 0, 0, 0.8) 93%), url(../image/computer-main.jpg);
+
+    background-position: center;
+    text-shadow: 2px 2px 2px black;
+    border: 1px solid black;
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: -1;
+    /* justify-content: center; */
+}
+
+.content-main .header {
+    margin-top: 80px;
+    width: 80vw;
+    text-align: center;
+
+}
+
+.content-main .header nav ul {
+
+    width: 80vw;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-main .header nav ul li a {
+
+    font-size: 1.8rem;
+    color: white;
+    text-decoration: none;
+
+}
+
+.content-main .header nav ul li a i {
+    margin-right: 10px;
+
+}
+
+.content-main .header .title {
+    margin: 100px 0px 40px 0px;
+    font-size: 4.8rem;
+}
+
+.content-main .header .subtitle {
+    font-size: 1.9rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.content-main .header .btn {
+    margin: 100px 0px;
+    font-size: 1.8rem;
+    color: white;
+    font-weight: 600;
+    border-radius: 0.2rem;
+    padding: 1px 16px 8px 18px;
+    background-color: var(--clr-green);
+    border: 2px solid var(--clr-green);
+    cursor: pointer;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.content-main .header .btn:hover {
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.content-main .header .action {
+    font-size: 1.5rem;
+}
+
+.content-main .header .action .fa-solid {
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 100px;
+    font-size: 1rem;
+    margin-left: 10px;
+    color: black;
+    text-shadow: none;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+
+}
+
+.four-articles {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 67.5vh 67.5vh;
+}
+
+.article-one {
+    background-image: url(../image/tablet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.article-four {
+
+    background-image: url(../image/pen.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.article-three ul {
+    padding: 0px;
+    width: 100%;
+    height:80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.article-three li img {
+    width: 40%;
+    padding-bottom: 20px;
+}
+
+.article-three li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--clr-green);
+}
+.article-three .title{
+   
+    margin-top: 50px;
+    font-size: 3rem;
+    text-align: center;
+}
+.article-two ul{
+    margin: 50px 60px;
+    list-style-type: none;
+}
+.article-two .title{
+    margin-top: 30px;
+    font-size: 3rem;
+    text-align: center;
+}
+.article-two .text{
+    margin: 20px 110px ;
+    font-weight: 500px;
+    font-size: 2rem;
+}
+.article-two ul li i{
+background-color: var(--clr-green);
+border-radius: 100px;
+color: white;
+padding: 2px;
+margin-right: 5px;
+}
+.article-two ul li{
+    margin-top: 20px;
+    font-size: 1.7rem;
+}
+.questions{
+    background-color: var(--clr-bg-green);
+}
+.questions h1.title{
+    font-size: 3rem;
+    padding-top: 50px;
+    text-align: center;
+}
+.questions .all-questions{
+    padding: 40px 80px;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+.questions .all-questions .question{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+.questions .all-questions .question .title{
+font-size: 2rem;
+}
+.questions .all-questions .question .answer{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.questions .email-us{
+    font-size: 1.5rem;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.questions .email-us span{
+    font-weight: bold;
+}
